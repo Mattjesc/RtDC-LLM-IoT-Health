@@ -1,4 +1,52 @@
-```markdown
+# RtDC-LLM-IoT-Health
+
+## Real-time Data Capture for Integration with LLMs to Enhance User Experience in IoT-based Personal Healthcare: Monitoring using Pulse and Temperature Sensors
+
+**Note: This is a Final Year Project for De Montfort University and Asia Pacific University of Technology and Innovation Malaysia**
+
+![GithubCoverPage](https://github.com/user-attachments/assets/93dfcd5e-9758-4de8-be2f-f403f88738c2)
+
+![Whole Version](https://github.com/user-attachments/assets/e545bb08-e798-4e9d-bf97-7d68c67b4df4)
+
+
+### Overview
+
+This project leverages real-time data capture from heart pulse and temperature sensors to integrate with Large Language Models (LLMs) to enhance the user experience in IoT-based personal healthcare. The system monitors environmental temperature and heart pulse, processes the data, and provides insightful feedback using LLMs.
+
+### Features
+
+- Real-time data capture from IoT sensors
+- Integration with OpenAI's Large Language Models
+- User-friendly interface using Soft UI Dashboard
+- Continuous monitoring and logging of health data
+- Insights and advice generation based on health data
+
+### Requirements
+
+#### Software Requirements
+
+- Python 3.8+
+- Flask and additional Flask-related libraries
+- Paho-MQTT
+- OpenAI API
+- Bootstrap 5.1.3 (for spinner)
+- Arduino IDE for ESP32 setup
+
+#### Hardware Requirements
+
+- ESP32 Development Board
+- Breadboard (for quick testing and non-soldered setups)
+- LM35 Temperature Sensor
+- Pulse Sensor Heart Rate (generic or labelled as XD-58C)
+- Connecting wires
+
+### Project Structure
+
+
+It seems the project structure section was not formatted properly, causing it to render as a code block. To fix this, we'll remove the leading spaces and backticks. Here's the updated README.md:
+
+markdown
+Copy code
 # RtDC-LLM-IoT-Health
 
 ## Real-time Data Capture for Integration with Large Language Models to Enhance User Experience in IoT-based Personal Healthcare: Monitoring using Pulse and Temperature Sensors
@@ -36,39 +84,6 @@ This project leverages real-time data capture from heart pulse and temperature s
 - Pulse Sensor Heart Rate (generic or labelled as XD-58C)
 - Connecting wires
 
-### Project Structure
-
-```
-RtDC-LLM-IoT-Health/
-│
-├── static/
-│   ├── assets/
-│   │   ├── css/
-│   │   │   ├── soft-ui-dashboard.min.css
-│   │   │   ├── nucleo-icons.css
-│   │   │   ├── nucleo-svg.css
-│   │   │   └── style.css
-│   │   ├── js/
-│   │   │   ├── core/
-│   │   │   │   ├── popper.min.js
-│   │   │   │   └── bootstrap.min.js
-│   │   │   ├── plugins/
-│   │   │   │   ├── perfect-scrollbar.min.js
-│   │   │   │   └── smooth-scrollbar.min.js
-│   │   │   └── soft-ui-dashboard.min.js
-│   ├── main.js
-│
-├── templates/
-│   ├── base.html
-│   ├── index.html
-│
-├── main/
-│   └── main.ino
-│
-├── app.py
-└── requirements.txt
-```
-
 ### Setup Instructions
 
 #### Python and Flask Setup
@@ -76,7 +91,7 @@ RtDC-LLM-IoT-Health/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/RtDC-LLM-IoT-Health.git
+   git clone https://github.com/Mattjesc/RtDC-LLM-IoT-Health.git
    cd RtDC-LLM-IoT-Health
    ```
 
