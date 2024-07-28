@@ -84,9 +84,7 @@ void processHealthData() {
 
     if (IBI > 0) {
       int calculatedBPM = 60000 / IBI;
-      if (calculatedBPM >= 60 && calculatedBPM <= 200) {
-        BPM = calculatedBPM;
-      }
+      BPM = calculatedBPM;
     }
   }
 
@@ -98,13 +96,11 @@ void processHealthData() {
   if (currentTime - lastPrintTime >= printInterval) {
     float temperature = readTemperature();
 
-    if (temperature >= 25 && temperature <= 50) {
-      char msg[50];
-      snprintf(msg, 50, "BPM: %d, Temperature: %.2f°C", BPM, temperature);
-      Serial.println(msg);
-      client.publish("health/bpm", String(BPM).c_str());
-      client.publish("health/temperature", String(temperature).c_str());
-    }
+    char msg[50];
+    snprintf(msg, 50, "BPM: %d, Temperature: %.2f°C", BPM, temperature);
+    Serial.println(msg);
+    client.publish("health/bpm", String(BPM).c_str());
+    client.publish("health/temperature", String(temperature).c_str());
 
     lastPrintTime = currentTime;
   }
