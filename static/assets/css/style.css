@@ -1,0 +1,55 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f5f5f5; /* Light grey background for the overall page */
+}
+
+#advice {
+    white-space: pre-wrap;
+    background: #1c1c1c; /* Dark background */
+    border: 1px solid #333; /* Darker border */
+    padding: 15px; /* Increased padding for better text display */
+    margin-top: 20px; /* Increased margin-top for better spacing */
+    color: white; /* White text */
+    font-size: 1rem; /* Adjusted text size for better readability */
+    line-height: 1.6; /* Improved line spacing */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100px; /* Minimum height to accommodate spinner */
+    font-weight: normal; /* Ensure normal font weight */
+}
+
+#logs {
+    height: 300px; /* Increased height for better log visibility */
+    overflow-y: auto; /* Ensure scrollbar appears as needed */
+    background: #f4f4f4; /* Light grey background for logs */
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 10px; /* Padding inside the log container */
+}
+
+#chart-container {
+    height: 400px;
+    width: 100%;
+}
+
+.container-fluid {
+    background: #BDC4CB; /* Light Grey background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker and more intense shadow effect */
+    border-radius: 16px; /* Rounded corners */
+    margin: 20px auto; /* Centers the container and adds vertical margin */
+    padding: 20px; /* Adds space inside the container */
+    max-width: 1200px; /* Maximum width of the container */
+}
+
+.btn-primary {
+    background-color: #CB0E3A !important; /* Red background color */
+    border-color: #CB0E3A !important; /* Red border color */
+    font-weight: bold; /* Make the button text bold */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker and more intense shadow effect */
+}
+
+#loading-spinner {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
