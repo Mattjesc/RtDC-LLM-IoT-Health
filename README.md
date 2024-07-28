@@ -40,13 +40,6 @@ This project leverages real-time data capture from heart pulse and temperature s
 - Pulse Sensor Heart Rate (generic or labelled as XD-58C)
 - Connecting wires
 
-### Project Structure
-
-
-It seems the project structure section was not formatted properly, causing it to render as a code block. To fix this, we'll remove the leading spaces and backticks. Here's the updated README.md:
-
-markdown
-Copy code
 # RtDC-LLM-IoT-Health
 
 ## Real-time Data Capture for Integration with Large Language Models to Enhance User Experience in IoT-based Personal Healthcare: Monitoring using Pulse and Temperature Sensors
