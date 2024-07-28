@@ -40,43 +40,6 @@ This project leverages real-time data capture from heart pulse and temperature s
 - Pulse Sensor Heart Rate (generic or labelled as XD-58C)
 - Connecting wires
 
-# RtDC-LLM-IoT-Health
-
-## Real-time Data Capture for Integration with Large Language Models to Enhance User Experience in IoT-based Personal Healthcare: Monitoring using Pulse and Temperature Sensors
-
-**Note: This is a Final Year Project for De Montfort University and Asia Pacific University of Technology and Innovation Malaysia**
-
-### Overview
-
-This project leverages real-time data capture from heart pulse and temperature sensors to integrate with Large Language Models (LLMs) to enhance the user experience in IoT-based personal healthcare. The system monitors environmental temperature and heart pulse, processes the data, and provides insightful feedback using LLMs.
-
-### Features
-
-- Real-time data capture from IoT sensors
-- Integration with OpenAI's Large Language Models
-- User-friendly interface using Soft UI Dashboard
-- Continuous monitoring and logging of health data
-- Insights and advice generation based on health data
-
-### Requirements
-
-#### Software Requirements
-
-- Python 3.8+
-- Flask and additional Flask-related libraries
-- Paho-MQTT
-- OpenAI API
-- Bootstrap 5.1.3 (for spinner)
-- Arduino IDE for ESP32 setup
-
-#### Hardware Requirements
-
-- ESP32 Development Board
-- Breadboard (for quick testing and non-soldered setups)
-- LM35 Temperature Sensor
-- Pulse Sensor Heart Rate (generic or labelled as XD-58C)
-- Connecting wires
-
 ### Setup Instructions
 
 #### Python and Flask Setup
