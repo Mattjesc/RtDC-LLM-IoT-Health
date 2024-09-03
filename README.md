@@ -2,7 +2,7 @@
 
 ## Real-time Data Capture for Integration with LLMs to Enhance User Experience in IoT-based Personal Healthcare: Monitoring using Pulse and Temperature Sensors
 
-**Note: This is a Final Year Project for De Montfort University and Asia Pacific University of Technology and Innovation Malaysia**
+**Note: This is a Final Year Project for De Montfort University and Asia Pacific University of Technology and Innovation**
 
 ![GithubCoverPage](https://github.com/user-attachments/assets/93dfcd5e-9758-4de8-be2f-f403f88738c2)
 
